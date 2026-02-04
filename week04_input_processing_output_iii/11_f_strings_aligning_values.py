@@ -5,8 +5,8 @@
 # You can actually specify that a value should be right, left, or center-aligned
 # using alignment specifiers.
 # 
-# < for left-align
-# > for right-align (this is the default)
+# < for left-align (this is the default for str)
+# > for right-align (this is the default for int and float)
 # ^ for center-align
 # ------------------------------------------------------------------------------
 
@@ -36,9 +36,9 @@ print(f'|{name5:<20}|')
 print(f'|{name6:<20}|')
 
 print('\nCENTER ALIGN--------------------------')
-print(f'|{name1:^20}|')
-print(f'|{name2:^20}|')
-print(f'|{name3:^20}|')
-print(f'|{name4:^20}|')
-print(f'|{name5:^20}|')
-print(f'|{name6:^20}|')
+print(f'|{name1:-^20}|')
+print(f'|{name2:-^20}|')
+print(f'|{name3:-^20}|')
+print(f'|{name4:-^20}|')
+print(f'|{name5:-^20}|')
+print(f'|{name6:-^20}|')
