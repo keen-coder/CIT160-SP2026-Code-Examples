@@ -1,5 +1,4 @@
 def main():
-
     # Named constants to represent the base hours and
     # the overtime multiplier.
     BASE_HOURS = 40 # Base hours per week
@@ -8,7 +7,7 @@ def main():
     # Get the hours worked and the hourly pay rate.
     hours = float(input('Enter the number of hours worked: '))
     pay_rate = float(input('Enter the hourly pay rate: '))
-
+    
     # Calculate and display the gross pay.
     if hours > BASE_HOURS:
         # Calculate the gross pay with overtime.
@@ -23,9 +22,9 @@ def main():
     else:
         # Calculate the gross pay without overtime.
         gross_pay = hours * pay_rate
-        # Display the gross pay.
-    
-    print(f'The gross pay is ${gross_pay:,.2f}.')
+        
+    # Display the gross pay.    
+    print(f'The gross pay is ${gross_pay:,.2f}.')    
 
 if __name__ == '__main__':
     main()

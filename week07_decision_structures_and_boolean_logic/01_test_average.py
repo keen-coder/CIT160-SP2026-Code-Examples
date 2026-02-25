@@ -2,7 +2,6 @@
 # their average. It congratulates the user if the
 # average is a high score.
 
-
 def main():
     # The HIGH_SCORE named constant holds the value that is
     # considered a high score.

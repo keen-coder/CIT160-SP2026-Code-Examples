@@ -9,7 +9,7 @@ def main():
     salary = float(input('Enter your annual salary: '))
     
     # Get the number of years on the current job.
-    years_on_job = int(input('Enter the number of ' + 'years employed: '))
+    years_on_job = int(input('Enter the number of years employed: '))
     
     # Determine whether the customer qualifies.
     if salary >= MIN_SALARY:
