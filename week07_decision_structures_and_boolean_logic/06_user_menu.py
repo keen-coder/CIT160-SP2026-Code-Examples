@@ -9,14 +9,15 @@ def main():
 
     # Store the text of your menu in a string
     # NOTE: THe use of \ to break up the string over multiple lines
-    menu_text = '\nWelcome to the Simple Calculator!\n' \
+
+    MENU_TEXT = '\nWelcome to the Simple Calculator!\n' \
                 '1. Addition\n' \
                 '2. Subtraction\n' \
                 '3. Multiplication\n' \
                 '4. Division\n'
 
     # Print the menu
-    print(menu_text)
+    print(MENU_TEXT)
 
     # get the user's choice
     user_choice = int(input('Enter your choice (1-4): '))

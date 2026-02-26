@@ -16,7 +16,12 @@ def main():
 
     # Generate a random float between 3.7 and 12.34 exclusive.
     rand_float2 = random.uniform(3.7, 12.34)
-    print(f'Random Float 1:\t\t{rand_float2}')
+    print(f'Random Float 2:\t\t{rand_float2}')
+
+    # Generate a random float between 3.7 and 12.34 exclusive.
+    # Round to 2 decimal places
+    rand_float3 = float(f'{random.uniform(3.7, 12.34):.2f}')
+    print(f'Random Float 3:\t\t{rand_float3}')
 
     
 if __name__ == '__main__':
