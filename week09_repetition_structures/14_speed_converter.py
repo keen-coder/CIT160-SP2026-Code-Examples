@@ -2,7 +2,6 @@
 # through 130 kph (in 10 kph INCREMENTs)
 # to mph.
 
-
 def main():
     START_SPEED = 60            # Starting speed
     END_SPEED = 131             # Ending speed

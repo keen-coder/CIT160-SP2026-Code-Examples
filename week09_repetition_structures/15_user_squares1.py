@@ -6,7 +6,7 @@ def main():
     # Get the ending limit.
     print('This program displays a list of numbers')
     print('(starting at 1) and their squares.')
-    end = int(input('How high should I go? '))
+    end = int(input('How high should I go?: '))
         
     # Print the table headings.
     print()
