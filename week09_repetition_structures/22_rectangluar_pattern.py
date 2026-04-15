@@ -1,7 +1,6 @@
 # This program displays a rectangular pattern
 # of asterisks.
 
-
 def main():
     rows = int(input('How many rows? '))
     cols = int(input('How many columns? '))

@@ -8,10 +8,8 @@ def main():
         score = int(input('Enter your score:'))
     print(score)
 
-
-    
     # With the walrus operator, you can make the code more concise
-    while (score := int(input('Enter your score: '))) < 0:
+    while ( score := int(input('Enter your score: ')) ) < 0:
         print('The score cannot be negative.')
 
     # Using the walrus operator in this way also makes the score variable

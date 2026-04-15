@@ -1,9 +1,16 @@
 
 def main():
+    # print('hello world', end=' ')
+    print(pw:='hello world')
+
+
+
     CORRECT = "opensesame"
 
     # Capture once, reuse multiple times
-    if not (pw := input("Enter password: ")):
+    pw = = input("Enter password: ")
+
+    if not (pw):
         print("Password cannot be empty.")
     elif len(pw) < 6:
         print("Password too short.")
@@ -11,6 +18,8 @@ def main():
         print("Access granted.")
     else:
         print("Access denied.")
+
+    print(pw)
 
 if __name__ == '__main__':
     main()

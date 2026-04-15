@@ -1,7 +1,5 @@
 # This program calculates retail prices.
 
-
-
 def main():
     MARK_UP = 2.5  # The markup percentage
     another = 'y'  # Variable to control the loop.
