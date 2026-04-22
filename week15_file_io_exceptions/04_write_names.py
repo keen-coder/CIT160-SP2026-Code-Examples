@@ -13,7 +13,7 @@ def main():
 
     # Write the names to the file.
     myfile.write(name1 + '\n')
-    myfile.write(name2 + '\n')
+    myfile.write(f'{name2}\n')
     myfile.write(name3 + '\n')
 
     # Close the file.

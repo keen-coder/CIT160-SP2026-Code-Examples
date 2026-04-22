@@ -14,7 +14,9 @@ def main():
 
     # Print the data that was read into
     # memory.
-    print(line1)
+
+    # Use the repr() function to see all hidden characters
+    print(repr(line1))
     print(line2)
     print(line3)
 

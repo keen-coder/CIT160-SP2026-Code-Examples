@@ -7,7 +7,7 @@ def main():
                          'do you want to create? '))
 
     # Open the file for writing.
-    with open('employees.txt', 'w') as emp_file:
+    with open('employees.txt', 'a') as emp_file:
         # Get each employee's data and write it to the file.
         for count in range(1, num_emps + 1):
             # Get the data for an employee.

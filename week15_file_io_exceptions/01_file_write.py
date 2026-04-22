@@ -13,6 +13,8 @@ def main():
     # Close the file.
     outfile.close()
 
+    # print('philosophers.txt file written successfully!')
+
 # Call the main function.
 if __name__ == '__main__':
     main()

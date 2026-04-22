@@ -12,6 +12,7 @@ def main():
 
     # As long as an empty string is not returned
     # from readline, continue processing.
+    # while (line := sales_file.readline()) != '':
     while line != '':
         # Convert line to a float.
         amount = float(line)

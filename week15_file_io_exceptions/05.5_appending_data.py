@@ -10,7 +10,7 @@ def main():
     color3 = input('Enter another color: ')
 
     # Write the numbers to the file.
-    outfile.write(color1 + '\n')
+    outfile.write('\n' + color1 + '\n')
     outfile.write(color2 + '\n')
     outfile.write(color3 + '\n')
 

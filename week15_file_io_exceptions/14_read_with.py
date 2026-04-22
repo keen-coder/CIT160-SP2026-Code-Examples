@@ -1,10 +1,10 @@
 # This program reads the contents of sequence.txt.
 def main():
     with open('sequence.txt', 'r') as infile:
-        line = infile.read()
+        line = infile.readline()
         while line != '':
             print(f'{line}')
-            line = infile.read()
+            line = infile.readline()
 
 # Call the main function.
 if __name__ == '__main__':

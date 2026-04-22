@@ -13,7 +13,7 @@ def main():
 
     # Write the numbers to the file.
     outfile.write(str(num1) + '\n')
-    outfile.write(str(num2) + '\n')
+    outfile.write(f'{num2}\n')
     outfile.write(str(num3) + '\n')
 
     # Close the file.

@@ -1,2 +1,4 @@
 Sumatra Medium Roast
 25.0
+Dark Roast
+50
